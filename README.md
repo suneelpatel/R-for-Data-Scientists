@@ -1,5 +1,5 @@
 # R-for-Data-Scientists
-Learn the fundamentals of programming with R, from reading and writing data to customizing visualizations and performing predictive analysis.
+Learn the fundamentals of R programming, from reading and writing data to customizing visualizations and performing predictive analysis on data.
 
 # Table of Content
 1. Functions in R
