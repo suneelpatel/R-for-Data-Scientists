@@ -6,7 +6,7 @@ Learn the fundamentals of R programming, from reading and writing data to custom
 2. OOPs Concept in R
 3. Initialize Function and Active Bindings
 4. R6 and Multiple Level Inheritance
-5. Data Manipulation and its Problems
+5. Data Manipulation
 6. Summarise Function and Piping
 7. Joining Tables and Data Manipulation with data.table
 8. Visualization and Components of Graphics
@@ -122,3 +122,27 @@ One R6 class can inherit from another. In other words, you can have super- and s
 Subclasses can have additional methods, and they can also have methods that override the superclass methods. In this example of a queue that retains its history, we’ll add a show() method and override the remove() method:
 
 
+# 5. Data Manipulation
+
+### What is Data Manipulation ?
+If you are still confused with this ‘term’, let me explain it to you. Data Manipulation is a loosely used term with ‘Data Exploration’. It involves ‘manipulating’ data using available set of variables. This is done to enhance accuracy and precision associated with data.
+
+#### Different Ways to Manipulate / Treat Data:
+There is no right or wrong way in manipulating data, as long as you understand the data and have taken the necessary actions by the end of the exercise. However, here are a few broad ways in which people try and approach data manipulation. Here are they:
+
+* Usually, beginners on R find themselves comfortable manipulating data using inbuilt base R functions. This is a  good first step, but is often repetitive and time consuming.  Hence, it is a less efficient way to solve the problem.
+
+* Use of packages for data manipulation. CRAN has more than 10000 packages available today. In simple words, these packages are nothing but a collection of pre-written commonly used pieces of codes. They help you perform the repetitive tasks fasts, reduce errors in coding and take help of code written by experts (across the open source eco-system for R) to make your code more efficient. This is usually the most common way of performing data manipulation.
+
+* Use of ML algorithms for data manipulation. You can use tree based boosting algorithms to take care of missing data & outliers. While these are definitely less time consuming, these approaches typically leave you wanting for a better understanding of data at the end of it.
+
+#### List of Packages
+For better understanding, I’ve also demonstrated their usage by undertaking commonly used operations. Below is the list of packages discussed in this article:
+
+* dplyr
+* data.table
+* ggplot2
+* reshape2
+* readr
+* tidyr
+* lubridate
