@@ -58,3 +58,16 @@ It takes the set of vectors and returns a set of logical vectors, in which at le
 ##### 4. all() Function
 It takes the set of vectors and returns a set of logical vectors, in which all of the values are TRUE.
 
+
+### 2. Matrix function in R
+#### Matrix or Matrices
+A matrix is a collection of data elements arranged in a two-dimensional rectangular layout. In other words, we can say matrix is a collection of numbers arranged into a fixed number of rows and columns.
+
+The numbers present in the matrix are real numbers. We then carry out the memory replication of the matrix using  the matrix function. 
+
+Hence, the data elements must be of the same basic type. Matrices functions are those functions which we use in matrices.
+
+There are two types of matrix function in R:
+* apply()
+* sapply()
+
