@@ -71,3 +71,23 @@ There are two types of matrix function in R:
 * apply()
 * sapply()
 
+### 3. Factor function in R
+
+R factor is used to store categorical data as levels. It can store both character and integer types of data. These factors are created with the help of factor() functions, by taking a vector as input.
+
+R factors are variables. It takes a limited number of different values. Hence, those variables are often known as categorical variables. In order to categorise the data and store it on multiple levels, we use the data object called R factor. They can store both strings and integers. They are also useful in the columns which have a limited number of unique values.
+
+
+### 4. Recursion in R
+#### What is Recursion?
+In a recursive function (recursion), function calls itself. In this, to solve the problems, we break the programs into smaller sub-programs.
+
+##### What is Recursive Function in R?
+Recursive functions call themselves. They break down the problem into the smallest possible components. The function() calls itself within the original function() on each of the smaller components. After this, the results will be put together to solve the original problem.
+
+##### Key Features of R Recursion
+Some major features of the R recursive function are:
+
+* The use of recursion, often, makes the code shorter and it also looks clean.
+* It is a simple solution for a few cases.
+* It expresses in a function that calls itself.
