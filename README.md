@@ -188,4 +188,15 @@ Let us create a few plots to understand the capability of ggplot2
 * Scatter Plots
     - Styling scatter plots by factor
     - Styling scatter plots by size
+    - Different symbols for different sizes
+
+#### 3. Plotly
+Plotly is an R package that creates interactive web-based graphs via the open source JavaScript graphing library plotly.js. It can easily translate the ‘ggplot2’ graphs to web-based versions also.
+Let us now see how we can utilise plotly to create interactive visualisations. We will be working with the same mtcars dataset that used in the lattice graphs demonstration.
+* Basic Scatter Plot
+* Styled Scatter Plot
+* Markers and Lines
+* Adding Color and Size Mapping
+
+
     
