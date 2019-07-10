@@ -91,3 +91,34 @@ Some major features of the R recursive function are:
 * The use of recursion, often, makes the code shorter and it also looks clean.
 * It is a simple solution for a few cases.
 * It expresses in a function that calls itself.
+
+
+# 2. OOPs concept in R
+Yes, it’s true! As compared to other statistical languages, R programming language has strong object-oriented programming facilities. This is because R has derived from S programming language. Though R is proficient in developing fully object-oriented programs, it’s approach to OOP is based on generic functions instead of class hierarchies. R consists of three OOP systems S3, S4 and R5. These features are based on the concepts of classes and methods.
+
+# 3. Initialize Function and Active Bindings
+
+# 4. R6 and Multiple Level Inheritance
+
+### R6 classes
+
+R6 classes are similar to R’s standard reference classes, but are lighter weight, and avoid some issues that come along with using S4 classes (R’s reference classes are based on S4). For more information about speed and memory footprint, see the Performance vignette.
+
+Unlike many objects in R, instances (objects) of R6 classes have reference semantics. R6 classes also support:
+
+* public and private methods
+* active bindings
+* inheritance (superclasses) which works across packages
+
+#### Why the name R6? 
+When R’s reference classes were introduced, some users, following the names of R’s existing class systems S3 and S4, called the new class system R5 in jest. Although reference classes are not actually called R5, the name of this package and its classes takes inspiration from that name.
+
+#### Active bindings
+Active bindings look like fields, but each time they are accessed, they call a function. They are always publicly visible.
+
+#### Inheritance
+One R6 class can inherit from another. In other words, you can have super- and sub-classes.
+
+Subclasses can have additional methods, and they can also have methods that override the superclass methods. In this example of a queue that retains its history, we’ll add a show() method and override the remove() method:
+
+
