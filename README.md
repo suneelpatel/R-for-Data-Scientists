@@ -98,6 +98,8 @@ Yes, it’s true! As compared to other statistical languages, R programming lang
 
 # 3. Initialize Function and Active Bindings
 
+Active bindings look like fields, but each time they are accessed, they call a function. They are always publicly visible.
+
 # 4. R6 and Multiple Level Inheritance
 
 ### R6 classes
